@@ -1,0 +1,83 @@
+/* BODY & CONTAINER */
+body {
+    background: #0b0b0b;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Courier New", monospace;
+}
+
+.game-container {
+    text-align: center;
+}
+
+/* HEADINGS */
+h1 {
+    color: #ff4444;
+    margin-bottom: 6px;
+}
+
+h2 {
+    color: #ffee55;
+    margin-top: 12px;
+}
+
+p {
+    color: #ff4444;
+    margin-top: 8px;
+}
+
+/* TIMER */
+#timer {
+    color: #00ffcc;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* MAZE DISPLAY */
+#screen {
+    font-size: 15px;
+    line-height: 1.15;
+    white-space: pre;
+    background: #111;
+    padding: 12px;
+    border-radius: 6px;
+    border: 3px solid #ff4444;   
+    box-shadow: 0 0 20px rgba(255, 60, 60, 0.6); 
+}
+
+/* MAZE ELEMENTS */
+.wall {
+    color: #ff4444;
+}
+
+.player {
+    color: #00ffcc;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0,255,204,0.8);
+}
+
+.exit {
+    color: #ffee55;
+    font-weight: bold;
+}
+
+/* FOG OF WAR */
+.fog {
+    color: #222; 
+}
+
+/* LEADERBOARD */
+#leaderboard {
+    color: #00ffcc;
+    text-align: left;
+    max-width: 220px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+#leaderboard li {
+    margin: 2px 0;
+}
