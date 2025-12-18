@@ -1,1 +1,1 @@
-# Maze
+ https://quickogbeatz.github.io/Maze/
